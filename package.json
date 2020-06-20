@@ -1,0 +1,62 @@
+{
+  "name": "my-first-bundle",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "Simon Gurin",
+    "email": "semen.gurin@mail.ru",
+    "url": "none"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "panel-pause",
+        "title": "Pause Screen",
+        "width": 5,
+        "file": "pause.html",
+        "headerColor": "#5C5F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "ingame.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "pause.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "pregame.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "toss.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "toss2.html",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "private": true
+}

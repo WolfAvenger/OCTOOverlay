@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<link rel="stylesheet" href="ingame.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+	<div class="team">
+		<input class="teamname teamname-a" type="text" placeholder="Team A name">
+		<p>Team A score: <input class="score score-a" type="number" min="0" placeholder=""></p>
+	</div>
+	<div class="team">
+		<input class="teamname teamname-b" type="text" placeholder="Team B name">
+		<p>Team B score: <input class="score score-a" type="number" min="0" placeholder=""></p>
+	</div>
+</div>
+<script src="setTeams.js"></script>
+<div class="buttons">
+	<button class="update" onclick="set(false)">Update</button>
+	<button class="swap" onclick="set(true)">Swap</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@font-face {
+	src: url("../fonts/Montserrat-Medium.ttf");
+	font-family: Montserrat;
+}
+
+@font-face {font-family: "BigNoodleTitlingCyr"; src: url("//db.onlinewebfonts.com/t/684c94f6cc6f9deda52aa04282ab7dae.eot"); src: url("//db.onlinewebfonts.com/t/684c94f6cc6f9deda52aa04282ab7dae.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/684c94f6cc6f9deda52aa04282ab7dae.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/684c94f6cc6f9deda52aa04282ab7dae.woff") format("woff"), url("//db.onlinewebfonts.com/t/684c94f6cc6f9deda52aa04282ab7dae.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/684c94f6cc6f9deda52aa04282ab7dae.svg#BigNoodleTitlingCyr") format("svg"); }
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat, sans-serif;
+	font-size: 14pt;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
+	color:black
+}
+
+p{
+	font-size: 9pt;
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.team{
+	font-family: Montserrat, sans-serif;
+	width: 45%;
+	margin-top: 7px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.teamname {
+	border-radius: 3px;
+	padding-left: 4px;
+	font-size: 10pt;
+}
+
+.score{
+	width: 25px;
+	text-align: center;
+}
+
+input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid gray;
+	font-family: Montserrat, sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+button {
+	margin: 0 0 10px 8px;
+	border: 1px solid;
+	border-radius: 5px;
+	outline: none;
+}
+button:focus {
+	outline: none !important;
+}
+button::-moz-focus-inner {
+	border: 0;
+}
+
+.update{
+	color: white;
+	background-color: #5280D9;
+	font-family: Montserrat, sans-serif;
+	font-size: 14pt;
+	border-color: #5280D9;
+	transition: .2s ease-in;
+}
+.update:hover{
+	color: #5280D9;
+	background-color: white;
+	cursor: pointer;
+}
+
+.swap{
+	color: white;
+	background-color: green;
+	font-family: Montserrat, sans-serif;
+	font-size: 14pt;
+	border-color: green;
+	transition: .2s ease-in;
+}
+.swap:hover{
+	color: green;
+	background-color: white;
+	cursor: pointer;
+}
+
+.swap, .update {
+	margin-top: 10px;
+}
